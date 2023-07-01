@@ -1,0 +1,42 @@
+@import '../../variable';
+
+.rating-container {
+  @include card-styles(left, flex-start, 28px);
+
+  .rating__star-icon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $medium-grey;
+
+    border-radius: 50%;
+  }
+
+  p {
+    font-weight: 200;
+
+    margin-bottom: 15px;
+  }
+
+  .rate-circles_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 6px;
+  }
+
+  .rating__button {
+    width: 100%;
+
+    background-color: $orange;
+    cursor: pointer;
+
+    padding: 12px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+  }
+}

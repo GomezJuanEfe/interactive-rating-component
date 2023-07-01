@@ -1,0 +1,22 @@
+@import '../../variable';
+
+.rating__circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $medium-grey;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.rating__circle--hover {
+  background-color: $light-grey;
+}
+
+.rating__circle--active {
+  background-color: $orange;
+}

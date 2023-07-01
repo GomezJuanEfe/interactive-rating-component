@@ -1,0 +1,36 @@
+@import './_variable.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $font, 'sans-serif';
+  color: $white
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $very-dark-blue;
+  font-size: $fs-sm;
+}
+
+h3 {
+  font-size: $fs-md;
+}
+
+button {
+  color: $white;
+  font-family: $font;
+  font-size: $fs-sm;
+  font-weight: 700;
+  border: none;
+}

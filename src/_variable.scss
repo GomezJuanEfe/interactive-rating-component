@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;700&display=swap');
+
+$orange: rgb(251, 116, 19);
+$white: rgb(255, 255, 255);
+$light-grey: rgb(149, 158, 172);
+$medium-grey: rgb(78, 78, 78);
+$dark-blue: rgb(37, 45, 55);
+$very-dark-blue: rgb(18, 20, 23);
+
+$font: 'Overpass';
+
+$fs-sm: 1.5rem;
+$fs-md: ($fs-sm + 0.9rem);
+$fs-lg: ($fs-md + 0.4rem);
+
+@mixin card-styles ($text-align, $align-items, $padding) {
+  width: 330px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: $align-items;
+
+  background-color: $dark-blue;
+  text-align: $text-align;
+
+  padding: $padding;
+  border-radius: 15px;
+}
